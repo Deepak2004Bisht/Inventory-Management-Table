@@ -1,0 +1,9 @@
+
+
+Build a simple inventory management app using React.js. The app should display a table of items in stock and allow users to:
+
+1. Add new items to the inventory.
+2. Edit and delete existing items.
+3. Filter the table by item category.
+4. Sort items by quantity.
+5. Highlight low-stock items (e.g., quantity below 10).

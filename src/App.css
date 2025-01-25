@@ -1,1 +1,73 @@
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  .add-item input {
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+  }
 
+  .add-item .button {
+    position: relative;
+    padding: 10px 22px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    background-color: #7d2ae8;
+  }
+
+  .add-item .button:hover{
+    cursor: pointer;
+  }
+  
+  .filter input {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  table th, table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  table td button{
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  table .edit{
+    background-color: #f4de16;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    color: #0e0e0e;
+    font-size: 12px;
+  }
+
+  table .delete{
+    background-color: #e82a2a;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    color: #fff;
+    font-size: 12px;
+  }
+
+  table td button:hover{
+    cursor: pointer;
+  }
+  
+  .low-stock{
+    background-color: #ffcccc;
+  }
